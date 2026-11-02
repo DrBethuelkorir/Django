@@ -14,7 +14,8 @@
   <body>
     <div class="container">
       <br />
-      {% include 'navbar.html'%} {% if messages %} {% for message in messages%}
+      {% include 'navbar.html'%}
+       {% if messages %} {% for message in messages%}
       <div class="alert theme-warning" role="alert">
         <p>{{message}}</p>
         <button
